@@ -14,4 +14,5 @@
     <color name="black_overlay">#66000000</color>
     <color name="cardview1">#E4E251</color>
     <color name="cardview2">#51E4B1</color>
+    <color name="red">#FF2828</color>
 </resources>
