@@ -41,6 +41,13 @@
     <string name="tulisanringkasanoos">Ringkasan\nOOS</string>
     <string name="tulisanrinstoreinvestment">Store Investment</string>
     <string name="tulisanselesai">Selesai</string>
+    <string name="tulisanseptember">September 2020</string>
+    <string name="tulisan50persen">50%</string>
+    <string name="tulisan80persen">80%</string>
+    <string name="tulisantarget">Target</string>
+    <string name="tulisanpencapaian">Pencapaian</string>
+    <string name="tulisanosa">OSA</string>
+    <string name="tulisannpd">NPD</string>
     <string name="tulisandashboardstore">Dashboard Store</string>
     <string name="tulisanperfectstore">Perfect Store</string>
     <string name="runningtext">Untuk support yang luar biasa di masa-masa covid-19 seperti ini. Semoga sehat selalu</string>
