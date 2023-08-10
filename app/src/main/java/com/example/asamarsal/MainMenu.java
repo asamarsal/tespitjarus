@@ -20,7 +20,8 @@ public class MainMenu extends AppCompatActivity {
         ImageButton tombolLogout = findViewById(R.id.tombollogout);
         ImageButton tombolKunjungan = findViewById(R.id.tombolkunjungan);
         ImageButton tombolDashboard = findViewById(R.id.tomboldashboard);
-        ImageButton tombolTransaction = findViewById(R.id.tomboltransaction);
+        ImageButton tombolTransmission = findViewById(R.id.tomboltransmission);
+        ImageButton tombolTarget = findViewById(R.id.tomboltarget);
 
         // Onclicklistener Pindah Activity
         tombolLogout.setOnClickListener(new View.OnClickListener() {
@@ -45,16 +46,25 @@ public class MainMenu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(MainMenu.this, DetailToko.class);
+                Intent intent = new Intent(MainMenu.this, Blank2.class);
                 startActivity(intent);
             }
         });
 
-        tombolTransaction.setOnClickListener(new View.OnClickListener() {
+        tombolTransmission.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(MainMenu.this, ListStoreTerpilih.class);
+                Intent intent = new Intent(MainMenu.this, Blank3.class);
+                startActivity(intent);
+            }
+        });
+
+        tombolTarget.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainMenu.this, Blank1.class);
                 startActivity(intent);
             }
         });

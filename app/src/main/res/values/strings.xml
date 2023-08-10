@@ -10,7 +10,7 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">Login failed</string>
     <string name="appversion">App Ver 1.0.0–20013FEA6BCC820C</string>
-    <string name="kunjungan">Kunjungan pada bulan agustus 2020</string>
+    <string name="kunjungan">Kunjungan pada bulan agustus 2023</string>
     <string name="tulisan150">150</string>
     <string name="tulisantotalscore">Total Score</string>
     <string name="tulisanactualscore">Actual Score</string>
@@ -25,11 +25,11 @@
     <string name="tulisanlogout">Logout</string>
     <string name="tulisanmainmenu">Main Menu</string>
     <string name="tulisannamaprofile">Mitha Khairulnisa</string>
-    <string name="tulisanrole">Role : {......}</string>
+    <string name="tulisanrole">Role : Pembeli</string>
     <string name="tulisannik">NIK : MD000001</string>
     <string name="tulisanliststore">List Store</string>
     <string name="tulisanusera">User A</string>
-    <string name="tulisanlistkunjungan">List Kunjungan 19–08–2020</string>
+    <string name="tulisanlistkunjungan">List Kunjungan 19–08–2023</string>
     <string name="title_activity_list_store">ListStore</string>
     <string name="gmapsapikey">AIzaSyDEdJIDr2pRw8zJ0ZDyQjcteLQ22CciSFs</string>
     <string name="title_activity_list_store1">ListStore</string>
@@ -53,7 +53,6 @@
     <string name="tulisanosa">OSA</string>
     <string name="tulisannpd">NPD</string>
     <string name="tulisanreset">Reset</string>
-    <string name="tulisantokoa">Toko Spiderman</string>
     <string name="tulisantipeoutlet">Tipe Outlet</string>
     <string name="tulisantipedisplay">Tipe Display</string>
     <string name="tulisansubtipedisplay">Sub Tipe Display</string>
@@ -74,5 +73,18 @@
     <string name="kodetoko">ST0001</string>
     <string name="namatoko">Indomaret Washington</string>
     <string name="clustertoko">Cluster : Small</string>
+    <string name="clustertokoa">Cluster : Small</string>
+    <string name="tulisantokoa">Toko Spiderman</string>
+    <string name="tulisantokob">Toko Ironman</string>
+    <string name="tulisantokoc">Toko Batman</string>
+    <string name="tulisantokod">Toko Wonderwoman</string>
+    <string name="keterangantokoa">TT Regular - IRTM Big Store</string>
     <string name="keterangantoko">TT Regular - ERTM Big - Pareto</string>
+    <string name="tulisanvisit">Visit</string>
+    <string name="tulisannovisit">No Visit</string>
+    <string name="jaraka">1 M</string>
+    <string name="jarakb">2 M</string>
+    <string name="jarakc">3 M</string>
+    <string name="tulisanback">Back</string>
+    <string name="tulisanblank">Halaman Ini Kosong</string>
 </resources>

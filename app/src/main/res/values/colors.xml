@@ -4,6 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="warnalogin">#093D8C</color>
     <color name="buttonlogin">#005eef</color>
+    <color name="warnaprimer">#005EEE</color>
     <color name="mainmenuatas">#093D8C</color>
     <color name="backgroundmainmenu">#F0F5FF</color>
     <color name="backgroundliststore">#EEF4FF</color>
@@ -11,8 +12,15 @@
     <color name="tulisannmenu">#FF9800</color>
     <color name="tulisanrunningtext">#005eef</color>
     <color name="backgroundinfostore">#1772FF</color>
+    <color name="tulisanpudar">#7A7A7A</color>
     <color name="black_overlay">#66000000</color>
     <color name="cardview1">#E4E251</color>
     <color name="cardview2">#51E4B1</color>
     <color name="red">#FF2828</color>
+    <color name="colorPrimary">#00FFFFFF</color>
+    <color name="buttonnovisit">#FFB51F1F</color>
+    <color name="buttonvisit">#005997</color>
+    <color name="blank1">#FF9797</color>
+    <color name="blank2">#F5FF6C</color>
+    <color name="blank3">#A5FF8C</color>
 </resources>
