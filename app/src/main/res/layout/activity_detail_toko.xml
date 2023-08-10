@@ -316,7 +316,7 @@
     <LinearLayout
         android:id="@+id/layoutdashboardstore"
         android:layout_width="match_parent"
-        android:layout_height="190dp"
+        android:layout_height="180dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -379,13 +379,30 @@
                     android:layout_marginBottom="10dp"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/tulisanosa"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        android:layout_gravity="center_horizontal"/>
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/tulisanosa"
+                            android:textColor="@color/white"
+                            android:layout_weight="1"
+                            android:textSize="20sp"
+                            android:layout_marginStart="20dp"/>
+
+                        <ImageView
+                            android:id="@+id/logomakanan1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/foodlogo"
+                            android:layout_marginEnd="10dp"/>
+
+                    </LinearLayout>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -393,16 +410,67 @@
                         android:text="@string/tulisanseptember"
                         android:textColor="@color/white"
                         android:layout_marginStart="10dp"
-                        android:textSize="14sp"/>
+                        android:textSize="12sp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/tulisan50persen"
                         android:textColor="@color/white"
-                        android:layout_marginStart="10dp"
                         android:textSize="30sp"
                         android:layout_gravity="center_horizontal"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tulisantarget"
+                            android:textColor="@color/white"
+                            android:layout_marginStart="5dp" />
+
+                        <Space
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tulisan40"
+                            android:textColor="@color/white"
+                            android:layout_marginEnd="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tulisanpencapaian"
+                            android:textColor="@color/white"
+                            android:layout_marginStart="5dp"/>
+
+                        <Space
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tulisan40"
+                            android:textColor="@color/white"
+                            android:layout_marginEnd="5dp"/>
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -417,20 +485,38 @@
                     android:layout_marginBottom="10dp"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="30dp"
-                        android:text="@string/tulisannpd"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        android:layout_gravity="center_horizontal"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/tulisannpd"
+                            android:textColor="@color/white"
+                            android:layout_weight="1"
+                            android:textSize="20sp"
+                            android:layout_marginStart="20dp"/>
+
+                        <ImageView
+                            android:id="@+id/logomakanan2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/foodlogo"
+                            android:layout_marginEnd="10dp"/>
+
+                    </LinearLayout>
+
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/tulisanseptember"
                         android:textColor="@color/white"
-                        android:textSize="14sp"
+                        android:textSize="12sp"
                         android:layout_marginStart="10dp"/>
 
                     <TextView
@@ -438,9 +524,60 @@
                         android:layout_height="wrap_content"
                         android:text="@string/tulisan80persen"
                         android:textColor="@color/white"
-                        android:layout_marginStart="10dp"
                         android:textSize="30sp"
                         android:layout_gravity="center_horizontal"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tulisantarget"
+                            android:textColor="@color/white"
+                            android:layout_marginStart="5dp"/>
+
+                        <Space
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tulisan40"
+                            android:textColor="@color/white"
+                            android:layout_marginEnd="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tulisanpencapaian"
+                            android:textColor="@color/white"
+                            android:layout_marginStart="5dp"/>
+
+                        <Space
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tulisan40"
+                            android:textColor="@color/white"
+                            android:layout_marginEnd="5dp"/>
+
+                    </LinearLayout>
 
                 </LinearLayout>
 

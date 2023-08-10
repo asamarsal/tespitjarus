@@ -44,6 +44,10 @@
     <string name="tulisanseptember">September 2020</string>
     <string name="tulisan50persen">50%</string>
     <string name="tulisan80persen">80%</string>
+    <string name="tulisan40">40</string>
+    <string name="tulisan20">20</string>
+    <string name="tulisan80">80</string>
+    <string name="tulisan100">100</string>
     <string name="tulisantarget">Target</string>
     <string name="tulisanpencapaian">Pencapaian</string>
     <string name="tulisanosa">OSA</string>
