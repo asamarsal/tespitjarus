@@ -39,7 +39,10 @@
     <string name="tulisanproductcheck">Product\nCheck</string>
     <string name="tulisanskupromo">SKU\nPromo</string>
     <string name="tulisanringkasanoos">Ringkasan\nOOS</string>
-    <string name="tulisanrinstoreinvestment">Store\nInvestment</string>
+    <string name="tulisanrinstoreinvestment">Store Investment</string>
+    <string name="tulisanselesai">Selesai</string>
+    <string name="tulisandashboardstore">Dashboard Store</string>
+    <string name="tulisanperfectstore">Perfect Store</string>
     <string name="runningtext">Untuk support yang luar biasa di masa-masa covid-19 seperti ini. Semoga sehat selalu</string>
     <string name="kodetoko">ST0001</string>
     <string name="namatoko">Indomaret Washington</string>
