@@ -369,6 +369,7 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:id="@+id/tomboltransaction"
                         android:layout_width="65dp"
                         android:layout_height="65dp"
                         android:src="@drawable/transmissionlogo"

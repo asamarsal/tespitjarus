@@ -10,11 +10,11 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="320dp"
+        android:background="@drawable/backgroundindomaret2"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="0dp"
-        android:background="@drawable/backgroundindomaret2">
+        tools:layout_editor_absoluteX="0dp">
 
         <LinearLayout
             android:id="@+id/linearLayout3"
@@ -61,8 +61,9 @@
 
         <ImageButton
             android:id="@+id/buttongps"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="10dp"
             android:background="@drawable/backgroundtombolliststore"
             android:scaleType="fitCenter"
             android:src="@drawable/arrowlogo"
@@ -70,29 +71,34 @@
             app:layout_constraintEnd_toStartOf="@id/buttoncamera"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginEnd="10dp"/>
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="0.6" />
 
         <ImageButton
             android:id="@+id/buttoncamera"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/buttonlokasi"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/backgroundtombolliststore"
             android:scaleType="fitCenter"
             android:src="@drawable/cameralogo"
-            android:background="@drawable/backgroundtombolliststore"
-            android:layout_marginEnd="10dp"/>
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/buttonlokasi"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="0.6"/>
 
         <ImageButton
             android:id="@+id/buttonlokasi"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/backgroundtombolliststore"
             android:scaleType="fitCenter"
             android:src="@drawable/locationlogo"
-            android:background="@drawable/backgroundtombolliststore"
-            android:layout_marginEnd="20dp"/>
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="0.6"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -135,12 +141,10 @@
                 android:layout_width="140dp"
                 android:layout_height="match_parent"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_gravity="center_vertical"
                 android:src="@drawable/listlogo"
                 android:background="@drawable/backgroundtombolreset"
                 android:text="@string/tulisanreset"
-                android:textSize="10sp"/>
+                android:textSize="14sp"/>
 
         </LinearLayout>
 
@@ -184,8 +188,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/tulisantipeoutlet"
                 android:layout_gravity="center_vertical"
-                android:textColor="@color/black"
-                android:layout_marginStart="55dp"/>
+                android:textColor="@color/black"/>
 
             <Space
                 android:layout_width="0dp"
@@ -206,7 +209,6 @@
                 android:layout_height="wrap_content"
                 android:text="@string/tulisantipe"
                 android:textColor="@color/black"
-                android:layout_marginEnd="40dp"
                 android:layout_gravity="center_vertical"/>
 
 
@@ -225,8 +227,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/tulisantipedisplay"
                 android:layout_gravity="center_vertical"
-                android:textColor="@color/black"
-                android:layout_marginStart="55dp"/>
+                android:textColor="@color/black"/>
 
             <Space
                 android:layout_width="0dp"
@@ -247,7 +248,6 @@
                 android:layout_height="wrap_content"
                 android:text="@string/tulisanmantap"
                 android:textColor="@color/black"
-                android:layout_marginEnd="40dp"
                 android:layout_gravity="center_vertical"/>
 
         </LinearLayout>
@@ -265,8 +265,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/tulisansubtipedisplay"
                 android:layout_gravity="center_vertical"
-                android:textColor="@color/black"
-                android:layout_marginStart="55dp"/>
+                android:textColor="@color/black"/>
             <Space
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -286,7 +285,6 @@
                 android:layout_height="wrap_content"
                 android:text="@string/tulisankeren"
                 android:textColor="@color/black"
-                android:layout_marginEnd="40dp"
                 android:layout_gravity="center_vertical"/>
 
         </LinearLayout>
@@ -304,8 +302,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/tulisanertm"
                 android:layout_gravity="center_vertical"
-                android:textColor="@color/black"
-                android:layout_marginStart="55dp"/>
+                android:textColor="@color/black"/>
 
             <Space
                 android:layout_width="0dp"
@@ -326,7 +323,6 @@
                 android:layout_height="wrap_content"
                 android:text="@string/tulisanya"
                 android:textColor="@color/black"
-                android:layout_marginEnd="40dp"
                 android:layout_gravity="center_vertical" />
 
         </LinearLayout>
@@ -344,8 +340,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/tulisanpareto"
                 android:layout_gravity="center_vertical"
-                android:textColor="@color/black"
-                android:layout_marginStart="55dp"/>
+                android:textColor="@color/black"/>
 
             <Space
                 android:layout_width="0dp"
@@ -366,7 +361,6 @@
                 android:layout_height="wrap_content"
                 android:text="@string/tulisanya"
                 android:textColor="@color/black"
-                android:layout_marginEnd="40dp"
                 android:layout_gravity="center_vertical"/>
 
         </LinearLayout>
@@ -384,8 +378,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/tulisanemerchandising"
                 android:layout_gravity="center_vertical"
-                android:textColor="@color/black"
-                android:layout_marginStart="55dp"/>
+                android:textColor="@color/black"/>
 
             <Space
                 android:layout_width="0dp"
@@ -406,7 +399,6 @@
                 android:layout_height="wrap_content"
                 android:text="@string/tulisanya"
                 android:textColor="@color/black"
-                android:layout_marginEnd="40dp"
                 android:layout_gravity="center_vertical"/>
 
         </LinearLayout>
