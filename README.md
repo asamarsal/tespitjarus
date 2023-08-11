@@ -7,3 +7,5 @@ Aplikasi Tespitjarus dibuat untuk test slicing ui dengan membuat login layout ya
 Berikut tampilan dari aplikasi Tes Pitjarus :
 
 <img src="https://github.com/asamarsal/tespitjarus/blob/main/cover.png" alt="cover" width="880" height="800"/>
+
+Created on 11 Aug 2023
