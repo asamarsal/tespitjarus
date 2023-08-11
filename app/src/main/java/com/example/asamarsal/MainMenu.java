@@ -6,10 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 
 public class MainMenu extends AppCompatActivity {
+
+    private ImageButton tombolRefresh;
+    private Animation rotateAnimation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +28,10 @@ public class MainMenu extends AppCompatActivity {
         ImageButton tombolDashboard = findViewById(R.id.tomboldashboard);
         ImageButton tombolTransmission = findViewById(R.id.tomboltransmission);
         ImageButton tombolTarget = findViewById(R.id.tomboltarget);
+        tombolRefresh = findViewById(R.id.tombolrefresh);
+
+        // Animasi
+        rotateAnimation = AnimationUtils.loadAnimation(this, R.anim.rotate_animation);
 
         // Onclicklistener Pindah Activity
         tombolLogout.setOnClickListener(new View.OnClickListener() {
@@ -66,6 +76,13 @@ public class MainMenu extends AppCompatActivity {
 
                 Intent intent = new Intent(MainMenu.this, Blank1.class);
                 startActivity(intent);
+            }
+        });
+
+        tombolRefresh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tombolRefresh.startAnimation(rotateAnimation);
             }
         });
 

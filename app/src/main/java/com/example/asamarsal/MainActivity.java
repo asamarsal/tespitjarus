@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView tombolCheckupdate = findViewById(R.id.tombolCheckupdate);
 
+        // Textview username dan password
         masukkanusername = findViewById(R.id.masukkanusername);
         masukkanpassword = findViewById(R.id.masukkanpassword);
 
@@ -60,6 +61,48 @@ public class MainActivity extends AppCompatActivity {
                 showToastMessage("Anda sudah di versi terbaru !");
             }
         });
+
+    /* UNTUK LOGIN USERNAME DAN PASSWORD. TAPI USERNAME DAN PASSWORD GAGAL
+        // Onclicklistener Pindah Activity
+        tombolLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                // Ambil data dari EditText
+                String username = masukkanusername.getText().toString();
+                String password = masukkanpassword.getText().toString();
+
+                // Post login ke API
+                Retrofit retrofit = new Retrofit.Builder()
+                        .baseUrl("https://keraton.indward.com/api/sariroti_md/index.php/login/loginTest")
+                        .addConverterFactory(GsonConverterFactory.create())
+                        .build();
+
+                LoginService service = retrofit.create(LoginService.class);
+                Call<LoginResponse> call = service.login(username, password);
+
+                call.enqueue(new Callback<LoginResponse>() {
+                    @Override
+                    public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
+                        if (response.isSuccessful()) {
+                            // Jika login berhasil > Next ke mainmenu
+                            Intent intent = new Intent(MainActivity.this, MainMenu.class);
+                            startActivity(intent);
+                        } else {
+                            // Jika login gagal, Ada pesan error
+                            // Edit di response.errorBody()
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Call<LoginResponse> call, Throwable t) {
+                        // Jika ada gagal
+                    }
+                });
+            }
+        });
+
+     */
 
     }
     private void showToastMessage(String message) {
