@@ -2,7 +2,7 @@
 
 About this app : 
 
-Aplikasi Tespitjarus dibuat untuk test slicing ui dengan membuat login layout yang melalui login API, dengan API google maps dan direpresentasikan sebagai aplikasi android yang merangkum toko sembako di sekitar.
+Aplikasi Tespitjarus dibuat untuk test slicing ui dengan membuat login layout yang melalui login API, dengan API google maps dan direpresentasikan sebagai aplikasi android yang merangkum toko sembako di sekitar. Aplikasi ini dikerjakan dalam waktu 4 hari
 
 Berikut tampilan dari aplikasi Tes Pitjarus :
 
